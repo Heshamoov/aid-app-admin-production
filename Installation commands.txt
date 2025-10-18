@@ -1,0 +1,6 @@
+corepack enable
+corepack prepare pnpm@latest --activate
+pnpm -v
+pnpm install
+
+git remote add origin https://github.com/Heshamoov90@gmail.com/aid-app.git
