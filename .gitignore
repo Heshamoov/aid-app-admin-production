@@ -20,17 +20,20 @@ frontend/.svelte-kit/
 frontend/build/
 frontend/dist/
 
-# PocketBase local setup
+# PocketBase local runtime (do NOT commit binaries/data/builds)
 pocketbase.exe
 backend/pocketbase.exe
 pb_data/
 backend/pb_data/
 pb_public/
+dist-runtime/
+Aid-App.zip
 
-# Local scripts (optional)
+# Batch scripts
+# Ignore .bat by default, but KEEP the templates in scripts/
 *.bat
-*.sh
+!scripts/*.bat
 
-# OS files
+# OS junk
 .DS_Store
 Thumbs.db
