@@ -20,6 +20,17 @@ frontend/.svelte-kit/
 frontend/build/
 frontend/dist/
 
+# PocketBase local setup
+pocketbase.exe
+backend/pocketbase.exe
+pb_data/
+backend/pb_data/
+pb_public/
+
+# Local scripts (optional)
+*.bat
+*.sh
+
 # OS files
 .DS_Store
 Thumbs.db
